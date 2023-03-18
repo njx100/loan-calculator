@@ -12,15 +12,15 @@
         <h1>Loan Calculator</h1>
         <div class="sub-container">
             <p>Loan Amount $</p>
-            <input type="number" id="loan-amount" value="10000">
+            <input onchange="updatePayment()" type="number" id="loan-amount" step="1000" value="100000">
         </div>
         <div class="sub-container">
             <p>Interest Rate %</p>
-            <input type="number" step="0.1" id="interest-rate" value="1.0">
+            <input onchange="updatePayment()" type="number" step="0.1" id="interest-rate" value="5">
         </div>
         <div class="sub-container">
             <p>Months to pay</p>
-            <input type="number" id="months-to-pay" value="12">
+            <input onchange="updatePayment()" type="number" id="months-to-pay" value="12">
         </div>
         <div id="text-info">Monthly Payment: <span id="monthly-payment">5</span></div>
     </div>
