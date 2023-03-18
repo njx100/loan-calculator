@@ -1,1 +1,38 @@
-loan-calculator
+body {
+    margin: 0;
+    background-color: azure;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+input,
+p {
+    margin: 0;
+    width: 100%;
+}
+
+.sub-container {
+    margin: 10px;
+}
+
+input {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#text-info {
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
